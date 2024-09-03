@@ -40,3 +40,6 @@ Podcasts feitos em vídeo
 ]
 ```
 
+
+    GET: retorna lista de episódios baseado em um parâmetro envidado pelo user do Nome do Podcast
+
