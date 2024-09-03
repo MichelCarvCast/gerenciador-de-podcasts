@@ -9,8 +9,7 @@
     "start:dev": "tsx src/server.ts",
     "start:watch": "tsx  watch src/server.ts",
     "dist":"tsup src",
-    "start:dist": "npm run dist && node/server.js",
-    "git:commit": "git add * && git commit -m \"Git automático teste\" && git push origin DEV-Gitautomatico && git checkout master && git merge DEV-Gitautomatico"
+    "start:dist": "npm run dist && node/server.js"
   },
   "keywords": [],
   "author": "",
