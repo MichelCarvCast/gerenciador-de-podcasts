@@ -19,9 +19,9 @@ Podcasts feitos em vídeo
     Listar os episódios em sessões de categorias
 
 ### Como vou implementar:
-    Vou retornar em uma api rest (json) o nome do podcast, nome do episódio, imagem de capa, url do vídeo, categoria
+    GET: retorna lista de episódios
 
-
+    response
 ``` js
 [
 
@@ -29,16 +29,12 @@ Podcasts feitos em vídeo
         podcastName: "flow",
         episode: "CBUM - Flow #319",
         videoId:"pQSuQmUfS30"
-        cover: "https://i.ytimg.com/vi/pQSuQmUfS30/maxresdefault.jpg",
-        link: "https://www.youtube.com/watch?v=pQSuQmUfS30",
         categories: ["saúde", "fitness", "esporte"]
     },
     {
         podcastName: "flow",
         episode: "RUBENS BARRICHELLO - Flow #339",
         videoId:"4KDGTdiO4I"
-        cover: "https://i.ytimg.com/vi/4KDGTdiO4I/maxresdefault.jpg",
-        link: "https://www.youtube.com/watch?v=4KDGTdiO4I",
         categories: ["esporte", "corrida"]
     }
 ]
